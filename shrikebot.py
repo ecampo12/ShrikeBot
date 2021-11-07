@@ -28,8 +28,8 @@ async def on_message(message):
 @client.event
 async def on_member_join(member):
     print('got a thing')
-    # channel = client.get_channel(906596208112451648) ## this is the general chat
-    channel = client.get_channel(906651114127122484)  ## this is the private bot testing chat
+    channel = client.get_channel(906596208112451648) ## this is the general chat
+    # channel = client.get_channel(906651114127122484)  ## this is the private bot testing chat
     await channel.send('Welcome to this channel!')
 
 
